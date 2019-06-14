@@ -14,7 +14,7 @@
 	<body>
 		<h1> Smiguel's versie: </h1>
 
-		<?php include "smiguel.php"; ?>
+		<?php include "miguel.php"; ?>
 
 		<h1> Damian's versie: </h1>
 
