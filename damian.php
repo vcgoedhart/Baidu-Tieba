@@ -1,1 +1,0 @@
-<img src="pictures/twomad.jpg">;
