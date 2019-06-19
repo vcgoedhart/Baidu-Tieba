@@ -2,9 +2,9 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Studenten app</title>	
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Baidu Tieba V2</title>	
 		<link rel="stylesheet" href="<?= URL ?>css/style.css">
         <script src="https://kit.fontawesome.com/ac093956bb.js"></script>
 
@@ -16,7 +16,6 @@
 		<link rel="stylesheet" type="text/css" href="<?= URL ?>template_login/vendor/select2/select2.min.css">
 		<link rel="stylesheet" type="text/css" href="<?= URL ?>template_login/css/util.css">
 		<link rel="stylesheet" type="text/css" href="<?= URL ?>template_login/css/main.css">
-		
 	</head>
 	<body>
 		<nav>
