@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Studenten app</title>	
 		<link rel="stylesheet" href="<?= URL ?>css/style.css">
+        <script src="https://kit.fontawesome.com/ac093956bb.js"></script>
 
 		<link rel="icon" type="image/png" href="<?= URL ?>template_login/images/icons/favicon.ico"/>
 		<link rel="stylesheet" type="text/css" href="<?= URL ?>template_login/vendor/bootstrap/css/bootstrap.min.css">
