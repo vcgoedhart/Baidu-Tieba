@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> master
 <div class="limiter">
 	<div class="container-login100">
 		<div class="wrap-login100">
@@ -7,7 +10,11 @@
 				<img src="<?= URL ?>template_login/images/img-01.png" alt="IMG">
 			</div>
 
+<<<<<<< HEAD
 			<form class="login100-form validate-form" method="POST" action="">
+=======
+			<form class="login100-form validate-form" method="POST">
+>>>>>>> master
 				<span class="login100-form-title">Member Register</span>
 
 				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
@@ -29,14 +36,22 @@
 				</div>
 
 				<div class="wrap-input100">
+<<<<<<< HEAD
 					<input class="input100" type="text" name="name" placeholder="Name">
+=======
+					<input class="input100" type="text" name="Name" placeholder="Name">
+>>>>>>> master
 					<span class="focus-input100"></span>
 					<span class="symbol-input100"><i class="fas fa-id-card"></i></span>
 				</div>
 
 
 				<div class="wrap-input100">
+<<<<<<< HEAD
 					<input class="input100" type="text" name="phone" placeholder="Phone">
+=======
+					<input class="input100" type="text" name="Phone" placeholder="Phone">
+>>>>>>> master
 					<span class="focus-input100"></span>
 					<span class="symbol-input100"><i class="fas fa-phone-alt"></i></span>
 				</div>
@@ -51,5 +66,9 @@
 			</form>
 		</div>
 	</div>
+<<<<<<< HEAD
 </div>
 >>>>>>> Stashed changes
+=======
+</div>
+>>>>>>> master

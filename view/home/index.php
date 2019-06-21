@@ -1,9 +1,12 @@
+<<<<<<< HEAD
 
 <div class="container">
  <h1>Welkom bij het php-framework.</h1>
  <p>Je bent nu in home/index.</p>
 </div>
 =======
+=======
+>>>>>>> master
 <div class="limiter">
 	<div class="container-login100">
 		<div class="wrap-login100">
@@ -25,7 +28,11 @@
 					<span class="focus-input100"></span>
 					<span class="symbol-input100"><i class="fa fa-lock" aria-hidden="true"></i></span>
 				</div>
+<<<<<<< HEAD
 					
+=======
+				
+>>>>>>> master
 				<div class="container-login100-form-btn">
 					<button class="login100-form-btn">Login</button>
 				</div>
@@ -36,5 +43,9 @@
 			</form>
 		</div>
 	</div>
+<<<<<<< HEAD
 </div>
 >>>>>>> Stashed changes
+=======
+</div>
+>>>>>>> master
