@@ -5,7 +5,7 @@
 				<img src="<?= URL ?>template_login/images/img-01.png" alt="IMG">
 			</div>
 
-			<form class="login100-form validate-form" method="POST">
+			<form class="login100-form validate-form" method="POST" action="create">
 				<span class="login100-form-title">Member Register</span>
 
 				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
@@ -27,14 +27,12 @@
 				</div>
 
 				<div class="wrap-input100">
-					<input class="input100" type="text" name="Name" placeholder="Name">
+					<input class="input100" type="text" name="name" placeholder="Name">
 					<span class="focus-input100"></span>
 					<span class="symbol-input100"><i class="fas fa-id-card"></i></span>
 				</div>
-
-
 				<div class="wrap-input100">
-					<input class="input100" type="text" name="Phone" placeholder="Phone">
+					<input class="input100" type="text" name="phone" placeholder="Phone">
 					<span class="focus-input100"></span>
 					<span class="symbol-input100"><i class="fas fa-phone-alt"></i></span>
 				</div>

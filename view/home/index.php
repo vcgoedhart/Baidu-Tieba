@@ -5,7 +5,7 @@
 				<img src="<?= URL ?>template_login/images/img-01.png" alt="IMG">
 			</div>
 
-			<form class="login100-form validate-form" method="POST">
+			<form class="login100-form validate-form" method="POST" action="login">
 				<span class="login100-form-title">Member Login</span>
 
 				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
