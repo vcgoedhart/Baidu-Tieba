@@ -31,11 +31,6 @@
 					<span class="focus-input100"></span>
 					<span class="symbol-input100"><i class="fas fa-id-card"></i></span>
 				</div>
-				<?php foreach (getUserData() as $row) { ?>
-				
-				<p>	a </p>
-
-				<?php } ?>
 				<div class="wrap-input100">
 					<input class="input100" type="text" name="phone" placeholder="Phone">
 					<span class="focus-input100"></span>

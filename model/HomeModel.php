@@ -26,7 +26,7 @@ function getUserData(){
 
        $stmt->execute();
 
-       $result = $stmt->fetch();
+       $result = $stmt->fetchAll();
 
    } catch(PDOException $e){
        echo "Connection failed: " . $e->getMessage();
@@ -34,4 +34,27 @@ function getUserData(){
    $conn = null;
 
    return $result;
+}
+
+function loginUser($email, $pass){
+	$conn=openDatabaseConnection();
+
+	try{
+
+	$stmt = $conn->prepare('SELECT * FROM users WHERE email = :email AND password = :pass');
+	$stmt->bindParam(":email", $email);
+	$stmt->bindParam(":pass", $pass);
+	$stmt->execute();
+	echo count($stmt);
+	$number =$stmt->rowCount();
+	if ($number=== 1) {
+		return true;
+	}else{
+		return false;
+	}
+
+	}catch(PDOException $e){
+       echo "Connection failed: " . $e->getMessage();
+   }
+   $conn = null;
 }
